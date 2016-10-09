@@ -2,14 +2,16 @@ package main;
 
 import java.io.File;
 
+import for1vs1.AllParams;
 import for1vs1.FilesGetter;
 import for1vs1.ScoreOutputter;
-
 import static for1vs1.AllParams.*;
 
 public class Main1vs1 {
 
 	public static void main(String[] args) {
+		// initialize
+		AllParams temp = new AllParams();
 		// TODO Auto-generated method stub
 		for( String folderName : InputFolderNames ){
 			System.out.println(folderName);
